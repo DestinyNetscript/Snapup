@@ -1,0 +1,1147 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+  padding: 0px;
+  margin: 0px;
+  font-family: "Poppins", sans-serif;
+}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%; 
+  vertical-align: baseline;
+}
+.modalContent select:focus-visible {
+    outline: none;
+}
+body{  
+  color: #fff;  
+  background: #0f1012;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+} 
+p{
+ font-size: 15px;
+ line-height: 1.6;
+}
+h1, h2, h3, h4, h5, h6{
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+} 
+.custHome{
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  padding: 10px 30px;
+  overflow-y: scroll;
+  height: calc(100vh - 75px);
+}
+.dashboard{
+  position: relative;
+  display: flex;
+  gap: 0px;
+  box-sizing: border-box;
+}
+.Logo img{
+  position: relative;
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: 40px;
+}
+.sidebar{
+  flex: 15%;
+  position: relative;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  box-sizing: border-box; 
+  height: 100vh; 
+  background-color: #1d1e20;
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
+}
+.nsm7Bb-HzV7m-LgbsSe { 
+    border-radius: 50px!important; 
+}
+.profile img{
+  width: 100%;
+  height: auto;
+  max-width: 90px;
+  border-radius: 50px;
+  border: 5px solid #363531;
+}
+.navBottom{
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  box-sizing: border-box;
+  left: 0px;
+  padding: 0px 20px !important;
+}
+.Logo{
+  display: flex;
+  align-items: center; 
+  gap: 15px;
+  margin: 10px 0px 20px 0px;
+}
+.login button{
+  margin-bottom: 10px;
+}
+.sidebar ul li a{
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 25px 10px 15px;
+  border-radius: 50px;
+  position: relative;
+  display: block;
+  font-size: 14px;
+  transition: 0.1s ease-in-out;
+}
+.sidebar .active{
+  background-color: rgba(255, 255, 255, 0.15);
+}
+.sidebar ul li a i{
+  color: #fff;
+  padding-right: 5px;
+}
+.profile{
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.posts{
+   position: relative;
+  display: block;
+  padding: 0px;
+  margin: 0px; 
+  gap: 10px; 
+  height: 100%;
+  max-height: 400px;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+.pending .postContent p, .completed .postContent p { 
+  position: relative;
+  display: inline-block;
+  padding: 7px 10px;
+  border-radius: 50px;
+  line-height: 1;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+.pending .postContent p  {
+  background-color: #504a0e; 
+}
+.completed .postContent p  {
+  background-color: #10a72059; 
+}
+.postContent h3{
+  margin-bottom: 5px;
+}
+.posts li{
+  list-style: none;
+  position: relative;
+  display: block;
+  padding: 15px;
+  margin: 0px 0px 10px 0px;
+  box-sizing: border-box; 
+  width: 100%;
+  background-color: #1d1e2047;
+  border-radius: 6px;
+  border: 1px solid #202020;
+}
+.todo::-webkit-scrollbar, .posts::-webkit-scrollbar {
+  width: 7px;
+  border-radius: 10px;
+}  
+.todo::-webkit-scrollbar-thumb, .posts::-webkit-scrollbar-thumb {
+ background-color: #373630;
+  border-radius: 10px; 
+}
+.mainContent .todo .todoTable{
+  position: relative;
+  display: block;
+  padding: 0px;
+  margin: 0px; 
+  gap: 10px; 
+  height: 100%;
+  max-height: 400px;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+.usersMain{
+  padding: 20px 30px;
+  overflow-y: scroll;
+  height: 87vh;
+}
+.content_table .usersMain{
+  padding: 20px 0px;
+  overflow-y: scroll;
+  height: auto;
+}
+.deviceComponent{
+  margin-top: 0px!important;
+}
+.notifications{
+  position: relative;
+}
+.notifications .tabs button{
+  position: relative;
+  display: inline-block;
+  background-color: #fde50033;
+  border: 1px solid #645c0c;
+  color: #fff;
+  padding: 10px 25px;
+  margin: 0px 10px 15px 0px;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 15px;  
+}
+.notifications .tabs button.active{ 
+  background-color: #fde50063; 
+}
+.notifications table{
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+  border-collapse: collapse;  
+}
+.notifications .deviceComponent{  
+  box-sizing: border-box;  
+}
+.notifications table td, .notifications table th{
+  padding: 10px 20px;
+  box-sizing: border-box;
+  text-align: left;
+  align-content: center;
+  font-size: 14px;
+} 
+.notifications table td img{
+  border-radius: 50%;
+  position: relative;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+.notifications table td{
+  border-bottom: 1px solid #343434;
+}
+.notifications tr {
+    padding: 15px;
+    background-color: #1d1e2047;
+    border: 1px solid #202020;
+}
+.notifications table th {
+    color: #fde500;
+    font-weight: 400;
+    font-size: 16px;
+}
+.deviceComponent .todo{
+  position: relative;
+  display: block;
+  padding: 0px;
+  margin: 0px; 
+  gap: 10px; 
+  height: 100%;
+  max-height: 100%;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+.emplyoeeList tr{ 
+  padding: 15px;  
+  background-color: #1d1e2047; 
+  border: 1px solid #202020;
+}
+.emplyoeeList tr td{
+  padding: 10px;
+}
+.sidebar ul{
+  padding: 20px 0px;
+}
+.sidebar ul li {
+  list-style: none;
+  margin-bottom: 10px;
+  position: relative;
+  display: block;
+  padding: 0px;
+}
+.main{
+  flex: 80%;
+  position: relative;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.login{
+  position: relative;
+  display: block;
+}
+.loginContent{
+  position: relative;
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 30px auto 0px auto;
+  max-width: 450px;
+  box-sizing: border-box;
+  padding: 30px;
+  border-radius: 16px; 
+  text-align: center;
+  background-color: #1e1e1e;
+    border: 1px solid #3e3e3e;
+}
+.loginContent form{
+  position: relative;
+  display: flex;
+  flex-direction: column; 
+  padding: 30px 0px 0px 0px;
+}
+.loginContent label{
+  position: relative;
+  margin-bottom: 20px;
+}
+.loginContent input{
+  padding: 15px 10px 15px 40px;
+  border-radius: 6px;
+  background-color: #1E1E1E;
+  border: 1px solid #4a4a4a;
+  width: 100%;
+  box-sizing: border-box;
+  position: relative;
+  color: #fff;
+}
+.loginContent input:hover, .loginContent input:focus{ 
+  border: 1px solid #626161; 
+  outline: none;
+}
+.loginContent h2{
+  position: relative;
+  display: block;
+  padding: 15px 0px;
+  font-size: 24px;
+}
+.loginContent i{
+  position: absolute;
+  left: 15px;
+  z-index: 1;
+  top: 50%;
+  transform: translate(0px, -50%);
+  color: #838383;
+}
+.loginContent button{
+  padding: 15px 10px 15px 10px;
+  border-radius: 50px!important;
+  background-color: #fde50038;
+  border: 1px solid #FDE500;
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 0px;
+  font-size: 16px; 
+  color: #fff; 
+  cursor: pointer;
+  overflow: hidden;
+}
+.loginContent .googleLogin{
+  padding: 10px 10px;
+  border-radius: 50px!important;
+  background-color: #fff;
+  border: 1px solid #fff;
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 0px;
+  font-size: 15px; 
+  color: #000; 
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+  display: block;
+}
+.loginContent .googleLogin i {
+   position: relative; 
+    left: 0px;
+     z-index: 1; 
+    top: unset;
+     transform: none; 
+     color: #838383; 
+}
+.loginContent .kep-login-facebook{
+  padding: 10px 10px;
+  border-radius: 50px!important;
+  background-color: #0866ff;
+  border: 1px solid #0866ff;
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 0px;
+  font-size: 15px; 
+  color: #fff; 
+  cursor: pointer;
+  overflow: hidden;
+  font-family: "Poppins", sans-serif;
+  text-transform: capitalize;
+  font-weight: 400;
+  position: relative;
+  display: block;
+} 
+.loginContent a{
+  color: #FDE500;
+  text-decoration: none;
+  font-size: 14px;
+  position: relative;
+  display: block;
+  padding-top: 15px;
+  text-decoration: underline;
+}
+.mainContent{
+  position: relative;
+  display: block;
+  padding: 20px 0px;
+  box-sizing: border-box;
+  width: 100%;
+  height: auto; 
+}
+.content2{
+  display: flex;
+  position: relative;
+  gap: 20px;
+  padding: 0px;
+}
+.content{
+  padding: 20px;
+  border-radius: 16px;
+  position: relative;  
+  display: block;
+  margin-top: 20px; 
+  background-color: #1d1e20;
+}
+.content_table{
+  padding: 0px; 
+  position: relative;  
+  display: block;
+  margin-top: 20px; 
+  background-color: transparent;
+}
+.contentt{
+  padding: 0px;
+  border-radius: 16px;
+  position: relative;  
+  display: flex;
+  margin-top: 20px;
+  gap: 50px; 
+  background-color: transparent;
+}
+.contentt .cleft{
+  flex: 45%;
+}
+.lifetimeUser{
+  padding: 20px;
+  border-radius: 16px;
+  position: relative;
+  flex: 45%; 
+  background-color: #1c1c13;
+  background: linear-gradient(to right, #000000, #1c1c13);
+  border: 1px solid #2e2e2e;
+}
+.lifetimeDevices{
+  padding: 20px;
+  border-radius: 16px;
+  position: relative;
+  flex: 45%; 
+  background-color: #1c1c13;
+  background: linear-gradient(to right, #000000, #1c1c13);
+  border: 1px solid #2e2e2e;
+}
+.custUser span i {
+  position: absolute;
+  left: 0px;
+  color: #000;
+  right: 0px;
+  bottom: 0px;
+  top: 0px;
+  margin: auto;
+  height: 20px;
+  width: 20px;
+  font-size: 20px;
+}
+.custUser h1{
+  font-size: 28px;
+  position: relative;
+  display: block;
+}
+.custUser h2{
+  font-size: 24px;
+  position: relative;
+  display: block; 
+  padding: 5px 0px;
+  font-weight: 600;
+}
+.loginError{
+  color: #f12828;
+  font-size: 14px;
+  background-color: #cf2f2f26;
+  position: relative;
+  display: block;
+  padding: 5px 20px;
+  text-align: center;
+  width: auto;
+  border-radius: 6px;
+  margin: 0 auto;
+}
+.custUser span {
+  background-color: #fde500;
+  padding: 10px;
+  position: relative;
+  display: inline-block;
+  border-radius: 13px;
+  margin-bottom: 0px;
+  width: 28px;
+  height: 26px;
+  text-align: center;
+}
+.sidebar ul li a:hover {
+  background-color: rgb(181 181 181 / 19%);
+}
+.header{
+  position: relative;
+  display: flex;
+  width: 100%;
+  box-sizing: border-box;
+  height: auto;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  background-color: rgba(0, 0, 0, 0.15);
+  justify-content: space-between;
+  gap: 20px;
+  padding: 0px 20px;
+  align-items: center;
+}
+.user{
+  position: relative;
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  gap: 20px;
+}
+.user a{
+  position: relative;
+  display: block; 
+}
+.userLink img{
+  width: 100%;
+  height: auto;
+  max-width: 40px;
+  border-radius: 50px;
+  border: 5px solid #363531;
+}
+.notifications a{
+  position: relative;
+  border-radius: 50px;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  box-shadow: 0px 1px 2px 0px #e3e3e3;
+}
+.notifications a i{
+  position: absolute;
+  left: 0px; 
+  right: 0px;
+  bottom: 0px;
+  top: 0px;
+  margin: auto;
+  height: 15px;
+  width: 15px;
+  font-size: 14px;
+  color: #fff;
+}
+.posts p{
+  position: relative; 
+  margin-bottom: 0px;
+  overflow: hidden;  
+  color: #9f9e9b;
+  font-size: 14px;
+}
+.postImg{
+  position: relative;
+  display: block;
+  max-width: 20px;
+  height: 100%;
+  padding: 15px;
+  text-align: center;
+  background: linear-gradient(to right, #000000, #1c1c13);
+  border: 1px solid #2e2e2e;
+  border-radius: 10px;
+  width: 100%;
+}
+.postImg p{
+  margin: 0px;
+  color: #fff;
+  font-size: 16px;
+}
+.postData div {
+    flex: 45%;
+}
+.postData {
+  position: relative;
+  display: flex;
+  gap: 15px;
+  align-items: start;
+  width: 100%;
+  box-sizing: border-box;
+}
+.postArrow{
+  max-width: 50px;
+  text-align: center;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+}
+.tool{
+  position: absolute;
+  right: 15px;
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #fde5003b;
+  border-radius: 50px;
+  line-height: 1;
+  font-size: 14px;
+  top: 15px;
+  border: 1px solid #766b00;
+}
+.tag{
+  position: relative;
+  display: inline-block;
+  padding: 7px 15px;
+  background-color: #00000045;
+  border-radius: 50px;
+  line-height: 1;
+  margin: 5px 5px 0px 0px;
+  border: 1px solid #3f4041;
+  font-size: 13px;
+}
+.posts h3{
+  position: relative;
+  display: block; 
+  font-size: 18px;
+  padding-top: 10px;
+}
+.like{
+  position: relative; 
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #fde5003b;
+  border-radius: 50px;
+  line-height: 1;
+  font-size: 14px;
+  margin: 10px 5px 10px 0px;
+  border: 1px solid #766b00;
+}
+.emplyoeeList{
+  position: relative;
+}
+.emplyoeeList .table{
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+  border-collapse: collapse;  
+  border-radius: 3px;
+}
+.emplyoeeList table{
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+  border-collapse: collapse;  
+}
+.button {
+  background-color: #fde50042;
+  padding: 8px 20px;
+  color: #fff;
+  border-radius: 50px; 
+  position: relative;
+  display: block;
+  font-size: 15px;
+  margin: 20px 10px;  
+  cursor: pointer;
+  border: 1px solid #fde500;
+}
+
+.loading  { 
+  width: 40%;
+  display: block;
+  position: relative; 
+}
+.loading span{ 
+  width: 100%;
+  display: block;
+  position: relative;
+  color: #212121;
+  background-color:#212326;
+  padding: 0.3rem;
+  margin: 15px 20px;
+  text-align: center;
+  border-radius: 0px;
+  overflow: hidden;
+}
+.loading span:nth-child(1){
+  width: 40%;
+}
+.loading span:nth-child(2){
+  width: 60%;
+}
+.loading span:nth-child(3){
+  width: 80%;
+}
+.loading span:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #1d1e20;
+  -webkit-animation: loadBar 2s cubic-bezier(0.09, 0.89, 0.7, 0.71) infinite;
+  animation: loadBar 2s cubic-bezier(0.09, 0.89, 0.7, 0.71) infinite;
+}
+@-webkit-keyframes loadBar {
+  0% {
+    left: -110%;
+  }
+
+  100% {
+    left: 110%;
+  }
+}
+
+@keyframes loadBar {
+  0% {
+    left: -110%;
+  }
+
+  100% {
+    left: 110%;
+  }
+} 
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+} 
+.modalContent {
+  background-color: #1e1e1e;
+  border: 1px solid #3e3e3e;
+  padding: 20px 30px;
+  border-radius: 8px;
+  width: 450px;
+  text-align: left;
+  position: relative;
+} 
+.closeButton{
+  color: #fff;
+}
+.modalContent h2{
+  color: #fff;
+  font-size: 18px !important;
+  position: relative;
+  display: block;
+  text-align: center;
+  margin: 15px 0px 20px 0px !important;
+}
+.mFunction{
+  position: relative;
+  display: block;
+  margin-top: 15px;
+  text-align: center;
+}
+.mFunction button{
+  position: relative;
+  display: inline-block;
+  background-color: #fde50033;
+  border: 1px solid #645c0c;
+  color: #fff;
+  padding: 5px 15px;
+  margin: 10px 10px 15px 0px;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 15px;
+}
+.mFunction .cancelBtn{ 
+  background-color: #1c1c1c33; 
+}
+p.error {
+    color: #c70000;
+}
+.modalContent input, .modalContent select{
+  padding: 15px 10px 15px 10px;
+  border-radius: 6px;
+  background-color: #1E1E1E;
+  border: 1px solid #4a4a4a;
+  width: 100%;
+  box-sizing: border-box;
+  position: relative;
+  color: #fff;
+  display: block;
+  margin-bottom: 10px;
+}
+.modalContent input:hover, .modalContent input:focus {
+    border: 1px solid #626161;
+    outline: none;
+}
+.modalContent input[type="date"]::-webkit-calendar-picker-indicator, .modalContent input[type="time"]::-webkit-calendar-picker-indicator {
+    background-color: #fff;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.phoneUpdate button {
+  position: relative;
+  display: inline-block;
+  background-color: #fde50033;
+  border: 1px solid #645c0c;
+  color: #fff;
+  padding: 5px 15px;
+  margin: 5px 0px 15px 0px;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 14px;
+}
+.closeButton {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  background: none;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+} 
+.button_a {
+  background-color: transparent;
+  padding: 5px 0px;
+  color: #fde500;
+  border-radius: 0px; 
+  position: relative;
+  display: block;
+  font-size: 15px;
+  margin: 10px 10px 0px 0px;  
+  cursor: pointer;
+  box-shadow: none;
+  border: none;
+  border-bottom: 1px solid #fde500;
+}
+.createNotification {
+  position: relative;   
+    display: unset !important; 
+    padding: 10px 0px;
+    float: right; 
+  background-color: #6b630b;
+  color: #fff; 
+  border: 1px solid #6c6407;
+  border-radius: 50px; 
+  line-height: 1;
+  margin: 5px 0px; 
+  font-size: 14px!important;
+} 
+.edit_a {
+  background-color: transparent;
+  padding: 0px;
+  color: #fde500;
+  border-radius: 0px; 
+  position: relative;
+  display: block;
+  font-size: 15px;
+  margin: 0px;  
+  cursor: pointer;
+  box-shadow: none;
+  border: none;
+  border-bottom: 1px solid #fde500;
+}
+.emplyoeeList table td, .emplyoeeList table th{
+  padding: 10px 20px;
+  box-sizing: border-box;
+  text-align: left;
+  align-content: center;
+  font-size: 14px;
+} 
+.emplyoeeList table th {
+  color: #fff;
+  font-weight: 400;
+  background: #1d1e20;
+}
+.emplyoeeList td img{
+  position: relative;
+  width: 45px;
+  height: auto; 
+  padding: 1px;
+  border-radius: 50px;
+} 
+.userImg{
+  position: relative;
+  display: block;
+}
+.imageUpload{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+.imageUpload input {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    font-size: 0;
+    background: transparent;
+    border: 0px;
+    position: absolute;
+    margin: auto;
+    cursor: pointer;
+    bottom: 0px;
+    right: 0px;
+    text-align: center;
+    display: none;
+}
+.imageUpload label {
+  background: #000;
+  padding: 4px 6px;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 14px;
+  box-shadow: 0px 1px 2px 0px #e3e3e3;
+}
+.imageUpload i { 
+    padding: 2px; 
+    cursor: pointer;
+    font-size: 14px; 
+}
+.title{
+  padding-bottom: 20px;
+  position: relative;
+  font-size: 20px;
+  color: #fde500;
+}
+.userProfile{
+  padding: 20px;
+  box-sizing: border-box;
+  position: relative;
+  display: block;
+  overflow-y: scroll;
+  height: calc(100vh - 75px);
+}
+ ::-webkit-scrollbar, .posts::-webkit-scrollbar {
+  width: 7px;
+  border-radius: 10px;
+}  
+ ::-webkit-scrollbar-thumb, .posts::-webkit-scrollbar-thumb {
+ background-color: #373630;
+  border-radius: 10px; 
+}
+.userProfileContainer{
+  position: relative;
+  display: block;
+  border-radius: 0px; 
+  box-sizing: border-box;
+  padding: 0px;
+} 
+.custHome::-webkit-scrollbar {
+  width: 7px;
+} 
+.userProfile .content span {
+  position: relative;
+  box-shadow: 0px 1px 2px 0px #e3e3e3;
+  background: #000;
+  padding: 6px;
+  border-radius: 50px;
+  width: 23px;
+  display: inline-block;
+  height: 23px;
+  text-align: center;
+  margin-right: 10px;
+} 
+.userProfile .content i{
+  font-size: 14px;
+}
+.custHome::-webkit-scrollbar-thumb {
+  background-color: #373630; 
+  border-radius: 10px;
+}
+.userProfile h2, .userProfile h3, .userProfile p{
+  margin-bottom: 7px;
+  position: relative;
+  display: block;
+  font-size: 14px;
+}
+.userProfile .userName{
+  font-weight: 600;
+  font-size: 24px;
+}
+.userStat{
+  position: relative;
+  display: block; 
+  box-sizing: border-box;
+  width: 100%;
+}
+.userStat .title{ 
+  padding-top: 20px; 
+}
+.userStat table th {
+    color: #fde500;
+    font-weight: 500;
+} 
+.userStat table ul{
+  margin: 5px 0px 5px 20px;
+}
+.userStat table td {
+    border-top: 1px solid #303030;
+}
+.userStat table td, .userStat table th {
+    padding: 10px 20px;
+    box-sizing: border-box;
+    text-align: left;
+    align-content: flex-start;
+    font-size: 14px;
+}
+.userStat table {
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+    border-collapse: collapse;
+} 
+.dropdown {
+  position: relative;
+  display: inline-block;
+} 
+.dropbtn { 
+  color: white;
+  padding: 5px;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+} 
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #3f4041; 
+  z-index: 1;
+  border-radius: 6px;
+  overflow: hidden;
+} 
+.text-center{
+  text-align: center!important;
+}
+.dropdown-content button:nth-child(1) { 
+  border-bottom: 1px solid #525252;
+}  
+.dropdown-content button {
+  color: #fff;
+  padding: 7px 15px;
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  border: none;
+  background: none;
+  cursor: pointer; 
+}  
+.dropdown-content button:hover{
+  background-color: #353535;
+}
+.dropdown .dropdown-content {
+  display: block;
+} 
+.notificationFile input {
+  padding: 0px;
+  font-size: 0px;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  cursor: pointer;
+  background-color: transparent;
+  text-align: center;
+  border-radius: 50px;
+  opacity: 0;
+
+}
+.notificationFile {
+  position: absolute;
+  right: 5px;
+  top: -5px;
+  border-radius: 50px;
+  width: 30px;
+  height: 30px;
+  background-color: #fff;
+  border: 1px solid #626161;
+  text-align: center;
+  z-index: 2;
+}
+.notificationFile i{
+  color: #000;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  margin: auto;
+  font-size: 14px;
+  height: fit-content;
+}
+.notificationImageData, .notificationImageData span {
+  position: absolute;
+  left: 0;
+  top: 0;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  bottom: 0;
+  margin: auto;
+  right: 0;
+  height: fit-content;
+  font-size: 14px;
+} 
+.imagePreview {
+  z-index: 1;
+  position: relative;
+  display: block;
+  width: 100px;
+  margin: 0 auto;
+  height: 100px;
+  border-radius: 50px;
+  overflow: hidden;
+  background-color: #1e1e1e;
+}
+.imagePreview img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.notificationImage{
+  position: relative;
+  display: block;
+  margin: 15px auto;
+  padding: 15px;
+  border: 1px solid #626161;
+  border-radius: 50%;
+  width: 90px;
+  height: 90px;
+}
+
+
+
+
