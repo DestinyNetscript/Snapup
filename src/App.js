@@ -26,7 +26,7 @@ function App() {
      <UserProvider>
       <div className="dashboard">
         <div className="sidebar">
-          <Navbar />
+          <Navbar /> 
         </div>
         <div className="main"> 
           <Header/>
